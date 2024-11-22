@@ -10,8 +10,8 @@
 - Dễ hiểu:
   Nắm bắt quy trình nhanh hơn.
 
--Phân tích và sửa lỗi:
-Dễ dàng phát hiện sai sót trong quy trình hoặc logic.
+- Phân tích và sửa lỗi:
+  Dễ dàng phát hiện sai sót trong quy trình hoặc logic.
 
 - Hỗ trợ làm việc nhóm:
   Có cách nhìn tổng quan cho các thành viên và chúng ta thiết kế thuật toán.
@@ -31,3 +31,8 @@ Dễ dàng phát hiện sai sót trong quy trình hoặc logic.
 - Khi cần phân tích quy trình hoặc thiết kế tài liệu dự án.
 
 - Khi cần tìm hiểu các vấn đề liên quan đến luồng điều kiện hoặc phân nhánh.
+
+# Lưu ý khi viết lưu đồ :
+- Cần viết đúng trọng tâm
+- Hạn chế viết dài dòng
+- Túm váy là : ngắn - gọn - dễ hiểu
