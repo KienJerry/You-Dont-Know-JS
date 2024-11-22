@@ -1,28 +1,28 @@
 # Bạn thực sự biết JS: Bắt đầu nào - Chỉnh sửa lần 2
 
-# Chapter 1: What _Is_ JavaScript?
+# Chương 1: JavaScript là gì?
 
-You don't know JS, yet. Neither do I, not fully anyway. None of us do. But we can all start getting to know JS better.
+Bạn chưa biết JS, và tôi cũng vậy. Thực ra, không ai trong chúng ta biết hoàn toàn về nó. Nhưng chúng ta đều có thể bắt đầu hiểu JS rõ hơn.
 
-In this first chapter of the first book of the _You Don't Know JS Yet_ (YDKJSY) series, we will take some time to build a foundation to move forward on. We need to start by covering a variety of important background housekeeping details, clearing up some myths and misconceptions about what the language really is (and isn't!).
+Trong chương đầu tiên của cuốn sách đầu tiên thuộc loạt sách "You Don't Know JS Yet" (YDKJSY), chúng ta sẽ dành thời gian để xây dựng nền tảng cơ bản để tiếp tục tiến lên. Chúng ta cần bắt đầu bằng việc đề cập đến nhiều chi tiết cơ bản quan trọng, làm rõ một số lầm tưởng và hiểu nhầm về bản chất thực sự của ngôn ngữ này (và những gì nó không phải!).
 
-This is valuable insight into the identity and process of how JS is organized and maintained; all JS developers should understand it. If you want to get to know JS, this is how to _get started_ taking the first steps in that journey.
+Đây là cái nhìn sâu sắc quý giá về cách JS được tổ chức và duy trì; tất cả các nhà phát triển JS nên hiểu điều này. Nếu bạn muốn hiểu JS, đây là cách bắt đầu để bước những bước đầu tiên trong hành trình đó.
 
-## About This Book
+## Về cuốn sách này
 
-I emphasize the word journey because _knowing JS_ is not a destination, it's a direction. No matter how much time you spend with the language, you will always be able to find something else to learn and understand a little better. So don't look at this book as something to rush through for a quick achievement. Instead, patience and persistence are best as you take these first few steps.
+Tôi nhấn mạnh từ "hành trình" vì việc hiểu JS không phải là một điểm đến, mà là một hướng đi. Dù bạn dành bao nhiêu thời gian cho ngôn ngữ này, bạn luôn có thể tìm thấy điều gì đó mới mẻ để học và hiểu sâu hơn một chút. Vì vậy, đừng coi cuốn sách này là thứ cần hoàn thành nhanh chóng để đạt được thành tích tức thời. Thay vào đó, kiên nhẫn và bền bỉ sẽ là cách tốt nhất khi bạn bước những bước đầu tiên này.
 
-Following this background chapter, the rest of the book lays out a high-level map of what you will find as you dig into and study JS with the YDKJSY books.
+Sau chương nền tảng này, phần còn lại của cuốn sách sẽ phác thảo một bản đồ cấp cao về những gì bạn sẽ khám phá khi nghiên cứu JS qua loạt sách YDKJSY.
 
-In particular, Chapter 4 identifies three main pillars around which the JS language is organized: scope/closures, prototypes/objects, and types/coercion. JS is a broad and sophisticated language, with many features and capabilities. But all of JS is founded on these three foundational pillars.
+Đặc biệt, Chương 4 sẽ chỉ ra ba trụ cột chính mà ngôn ngữ JS dựa vào: phạm vi/đóng gói (scope/closures), nguyên mẫu/đối tượng (prototypes/objects), và kiểu dữ liệu/ép kiểu (types/coercion). JS là một ngôn ngữ rộng và tinh vi, với nhiều tính năng và khả năng. Nhưng tất cả JS đều được xây dựng dựa trên ba trụ cột nền tảng này.
 
-Keep in mind that even though this book is titled "Get Started," it's **not intended as a beginner/intro book**. This book's main job is to get you ready for studying JS deeply throughout the rest of the series; it's written assuming you already have familiarity with JS over at least several months experience before moving on in YDKJSY. So to get the most out of _Get Started_, make sure you spend plenty of time writing JS code to build up your experience.
+Hãy nhớ rằng, dù cuốn sách này có tên là "Bắt Đầu," **nó không phải là cuốn sách nhập môn/dành cho người mới bắt đầu**. Nhiệm vụ chính của cuốn sách này là giúp bạn sẵn sàng nghiên cứu JS một cách sâu sắc qua toàn bộ loạt sách; nó được viết với giả định rằng bạn đã quen thuộc với JS ít nhất trong vài tháng trước khi tiếp tục với YDKJSY. Vì vậy, để tận dụng tối đa cuốn "Bắt Đầu," hãy chắc chắn rằng bạn đã dành nhiều thời gian viết mã JS để tích lũy kinh nghiệm.
 
-Even if you've already written a lot of JS before, this book should not be skimmed over or skipped; take your time to fully process the material here. **A good start always depends on a solid first step.**
+Ngay cả khi bạn đã viết rất nhiều JS trước đây, cuốn sách này cũng không nên được đọc qua loa hoặc bỏ qua; hãy dành thời gian để hiểu kỹ nội dung ở đây. **Một khởi đầu tốt luôn phụ thuộc vào một bước đi vững chắc**.
 
-## What's With That Name?
+## Tên Gọi Này Là Gì?
 
-The name JavaScript is probably the most mistaken and misunderstood programming language name.
+Tên gọi JavaScript có lẽ là tên ngôn ngữ lập trình bị nhầm lẫn và hiểu sai nhiều nhất.
 
 Is this language related to Java? Is it only the script form for Java? Is it only for writing scripts and not real programs?
 
