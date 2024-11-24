@@ -1,3 +1,5 @@
+![alt text](image-2.png)
+
 # OOP là gì?
 
 - OOP (Object-Oriented Programming - Lập trình hướng đối tượng) là một phương pháp lập trình tổ chức chương trình dựa trên các đối tượng (objects).
