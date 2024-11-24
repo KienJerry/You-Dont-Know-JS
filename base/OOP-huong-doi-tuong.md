@@ -32,7 +32,7 @@ VD: class Person {
 
 2. Inheritance (Kế thừa):
 
-- class này có thể kế thừa thuộc tính và phương thức từ một class khác ( class cha)
+- class này có thể kế thừa thuộc tính (attributes) và phương thức (methods) từ một class khác ( class cha)
 
 ```js
 class Animal {
@@ -50,11 +50,11 @@ class Dog extends Animal {
 
 3. Polymorphism (Đa hình):
 
-- Cho phép các đối tượng cùng kế thừa một lớp cha có thể hành xử khác nhau khi sử dụng chung một phương thức.
+- Cho phép các đối tượng cùng kế thừa một lớp cha có thể hành xử khác nhau khi sử dụng chung một phương thức (methods).
 
 - Gồm hai loại:
-  - Compile-time Polymorphism: Overloading (nạp chồng phương thức).
-  - xảy ra khi nhiều phương thức có cùng tên nhưng khác nhau về số lượng tham số hoặc kiểu dữ liệu của tham số trong cùng một lớp Quyết định sử dụng phương thức nào sẽ được thực hiện tại thời điểm biên dịch
+  - Compile-time Polymorphism: Overloading (nạp chồng phương thức (methods)).
+  - xảy ra khi nhiều phương thức (methods) có cùng tên nhưng khác nhau về số lượng tham số hoặc kiểu dữ liệu của tham số trong cùng một lớp Quyết định sử dụng phương thức (methods) nào sẽ được thực hiện tại thời điểm biên dịch
 
 ```js
 class Calculator {
@@ -73,8 +73,8 @@ class Calculator {
 }
 ```
 
-- Run-time Polymorphism: Overriding (ghi đè phương thức).
-  - xảy ra khi một lớp con định nghĩa lại một phương thức của lớp cha.
+- Run-time Polymorphism: Overriding (ghi đè phương thức (methods)).
+  - xảy ra khi một lớp con định nghĩa lại một phương thức(methods) của lớp cha. (khi lớp con thay thế hành vi của lớp cha, làm cho cùng một phương thức (methods) nhưng hành xử khác nhau.)
 
 ```js
 class Animal {
