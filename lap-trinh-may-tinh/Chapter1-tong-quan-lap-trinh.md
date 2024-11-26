@@ -6,7 +6,7 @@
 
 ![alt text](image/program-proramme.png)
 
-1. Chương trình mã máy (machine code program)
+**1. Chương trình mã máy (machine code program)**
 
 - Mã máy (machine code): là các lệnh tồn tại ở dạng các bit 0, 1
 - Sau đó các bit này sẽ nạp vào RAM (nạp khi use ra lệnh thực thi (click))
@@ -22,4 +22,4 @@
 >
 > **=> Để khắc phục vấn đề này -> người ta đã sinh ra khái niệm "chương trình hợp ngữ và hợp dịch"**
 
-1. Chương trình hợp ngữ và trình hợp dịch
+**2. Chương trình hợp ngữ và trình hợp dịch**
