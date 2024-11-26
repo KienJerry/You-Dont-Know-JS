@@ -14,11 +14,12 @@
 
 ![alt text](image/machine-code-program.png)
 
-> **_NOTE:_** Dev sẽ không viết phần mềm bằng cách viết trực tiếp chương trình mã máy (machine code program) , bởi vì:
-
-- quá khó (nó sinh ra để nạp vào RAM và CPU thực thi nó)
-- tốn thời gian và công sức
-- khả năng giới hạn (không thể đem bán vì khách hàng có thể dùng hệ điều hành khác hay máy tính khác)
-  => Để khắc phục vấn đề này -> sinh ra chương trình hợp ngữ và hợp dịch
+> **_NOTE:_** Dev sẽ không viết phần mềm bằng cách viết trực tiếp chương trình mã máy (machine code program), bởi vì:
+>
+> - quá khó (nó sinh ra để nạp vào RAM và CPU thực thi nó)
+> - tốn thời gian và công sức
+> - khả năng giới hạn (không thể đem bán vì khách hàng có thể dùng hệ điều hành khác hay máy tính khác)
+>
+> **=> Để khắc phục vấn đề này -> người ta đã sinh ra khái niệm "chương trình hợp ngữ và hợp dịch"**
 
 1. Chương trình hợp ngữ và trình hợp dịch
