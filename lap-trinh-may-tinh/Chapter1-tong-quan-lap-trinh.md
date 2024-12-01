@@ -46,9 +46,9 @@
 - phụ thuộc vào từng họ, dòng , hệ điều hành máy cụ thể ( nghĩa là đoạn code không chạy được trên máy khác khi khác hệ điều hành),
 
 - Nhược điểm:
-- chỉ chạy từ trên xuống ( có nghĩa có 100 dòng -> chạy từ dòng 1 -> dòng 100 ( cấp cao thì có thể chạy dòng 10 -> đến dòng 20 -> về dòng 5))
-- phải phụ thuộc vào máy móc. Mức trừu tượng hóa thấp (gần với phần cứng),
-- không có khái niệm promise , async await, ....
+  - chỉ chạy từ trên xuống ( có nghĩa có 100 dòng -> chạy từ dòng 1 -> dòng 100 ( cấp cao thì có thể chạy dòng 10 -> đến dòng 20 -> về dòng 5))
+  - phải phụ thuộc vào máy móc. Mức trừu tượng hóa thấp (gần với phần cứng),
+  - không có khái niệm promise , async await, ....
 
 **3.2 Ngôn ngữ cấp cao(hight-level - cũng là ngôn ngữ hiện tại)**
 
