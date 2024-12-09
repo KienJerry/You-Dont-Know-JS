@@ -174,3 +174,46 @@ int main() {
 ```
 
 Để giải quyết vấn đề tràn số thì người lập trình phải ước lượng để kết quả , ước tính đầu vào - ra , validate , và chọn kiểu dữ liệu thích hợp.
+
+**4 Hàm**
+
+**4.1 Khái niệm, cấu trúc**
+
+- Hàm là một khối mã (code) được định nghĩa để thực hiện một nhiệm vụ cụ thể
+
+- Cấu trúc:
+
+```js
+int main() {
+    printf("hello");
+
+    return 0;
+}
+
+main();
+//cấu trúc
+
+khai_bao_ham ten_Ham(list_parameters){
+  // thân hàm
+   printf("hello");
+   return 0;
+}
+
+ten_Ham(list_arguments); // Gọi hàm(argument)
+```
+
+- Tại sao phải sử dùng hàm:
+  - Tái sử dụng mã lệnh (reuse): Viết mã một lần, sử dụng nhiều lần.
+  - Tổ chức mã (organize): Chia chương trình lớn thành các phần nhỏ, dễ quản lý.
+  - Giảm lỗi (reduce errors): Dễ sửa lỗi hoặc thay đổi hành vi khi cần.
+
+**4.2 Các loại hàm**
+
+- Hàm có sẵn (Built-in Function): là hàm được cung cấp sẵn bởi ngôn ngữ lập trình
+
+```js
+Math.sqrt();
+console.log();
+```
+
+- Hàm do người dùng định nghĩa (User-defined Function): Là các hàm do lập trình viên tự viết, phục vụ các tác vụ cụ thể trong chương trình.
