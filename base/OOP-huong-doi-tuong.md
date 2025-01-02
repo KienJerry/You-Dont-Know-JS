@@ -53,25 +53,9 @@ class Dog extends Animal {
 - Cho phép các đối tượng cùng kế thừa một lớp cha có thể hành xử khác nhau khi sử dụng chung một phương thức (methods).
 
 - Gồm hai loại:
+
   - Compile-time Polymorphism: Overloading (nạp chồng phương thức (methods)).
   - xảy ra khi nhiều phương thức (methods) có cùng tên nhưng khác nhau về số lượng tham số hoặc kiểu dữ liệu của tham số trong cùng một lớp Quyết định sử dụng phương thức (methods) nào sẽ được thực hiện tại thời điểm biên dịch
-
-```js
-class Calculator {
-    // Nạp chồng phương thức "add"
-    int add(int a, int b) {
-        return a + b; // Cộng 2 số nguyên
-    }
-
-    double add(double a, double b) {
-        return a + b; // Cộng 2 số thực
-    }
-
-    int add(int a, int b, int c) {
-        return a + b + c; // Cộng 3 số nguyên
-    }
-}
-```
 
 - Run-time Polymorphism: Overriding (ghi đè phương thức (methods)).
   - xảy ra khi một lớp con định nghĩa lại một phương thức(methods) của lớp cha. (khi lớp con thay thế hành vi của lớp cha, làm cho cùng một phương thức (methods) nhưng hành xử khác nhau.)

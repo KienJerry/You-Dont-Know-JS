@@ -56,3 +56,84 @@ function main() {
   }
 }
 ```
+
+**1.2 Biến toàn cục**
+
+- Là biến nằm bên ngoài tất cả các khối lệnh
+
+```js
+const ABC = 2; // biến toàn cục
+function main() {
+  // logic khối
+}
+```
+
+- tác dụng của biến toàn cục:
+  - Nó cỏ thể được truy xuất mọi nơi trong chương trình( Ngoại trừ trùng tên).
+
+# Cấu trúc rẽ nhánh
+
+**1. Cấu trúc rẽ nhánh if else**
+![alt text](image/if-else.png)
+
+```js
+if (A === true) {
+  //Khối lệnh A
+}
+
+// Lệnh kế tiếp
+```
+
+**2. Cấu trúc dẽ nhánh switch**
+
+```js
+switch (A) {
+  case A1:
+    // Khối lệnh
+    break;
+  case A2:
+    // Khối lệnh
+    break;
+  case An:
+    // Khối lệnh An
+    break;
+  default:
+  //Khối lệnh
+}
+```
+
+- chỉ thị **break** : dùng để kết thúc switch
+
+**3. ghi chú**
+
+- Vậy khi nào dùng if-else , khi nào dùng switch-case ?
+
+  - Sử dụng switch-case khi biết các output của A , và đầu ra của các case sẽ đều chung 1 kiểu dữ liệu
+
+  VD:
+
+```js
+const A: string = "NAM";
+
+let result: string;
+
+switch (A) {
+  case "NAM":
+    result = "Đây là NAM";
+    break;
+  case "NU":
+    result = "Đây là NỮ";
+    break;
+  default:
+    result = "Không xác định";
+}
+
+// Đầu ra của result đều là string
+```
+
+# Cấu trúc lặp
+
+- Là một cấu trúc cho phép thực thi một đoạn mã nhiều lần cho đến khi một điều kiện nào đó được thỏa mãn.
+
+**1. Cấu trúc lặp while**
+![alt text](image/while.png)
