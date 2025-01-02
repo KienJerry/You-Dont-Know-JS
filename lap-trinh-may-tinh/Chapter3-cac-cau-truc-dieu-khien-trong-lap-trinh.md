@@ -137,3 +137,53 @@ switch (A) {
 
 **1. Cấu trúc lặp while**
 ![alt text](image/while.png)
+
+```js
+while (A) {
+  // Khối lệnh A
+}
+
+// Lệnh kế tiếp
+```
+
+**2. Cấu trúc lặp do while**
+![alt text](image/do-while.png)
+
+```js
+do {
+  // Khối lệnh A
+} while (A);
+
+// Lệnh kế tiếp
+```
+
+**3. Cấu trúc lặp for**
+![alt text](image/for.png)
+
+```js
+for (i; A; D) {
+  // Khối lệnh A
+}
+
+// Lệnh kế tiếp
+```
+
+**4. Các chỉ thị**
+
+- Chỉ thị **break**: Giống với switch , break dùng để kết thúc vòng lặp ngay lập tức.
+
+- Chỉ thị **continue**: bỏ qua lần lặp này để thực hiện lần lặp kế tiếp
+
+# Keywork
+
+- Algorithm: Thuật toán
+- Block: Khối
+- Variable: Biến
+- Golbal variable: biến toàn cục
+- Local variable: biến cục bộ
+- Control structure, control flows: Cấu trúc điều khiển trong lập trình
+  - loop structure: Cấu trúc lặp
+  - conditional structure, branch statements: Cấu trúc rẽ nhánh
+  - loop invariant: bất biến của vòng lặp
+- Scope: Phạm vi
+- Type casting: chuyển đổi kiểu dữ liệu

@@ -217,3 +217,10 @@ console.log();
 ```
 
 - Hàm do người dùng định nghĩa (User-defined Function): Là các hàm do lập trình viên tự viết, phục vụ các tác vụ cụ thể trong chương trình.
+
+# Keywork
+
+- variable: biến
+- variable declaration: khai báo biến
+- const: hằng số
+- function: hàm
